@@ -1,0 +1,81 @@
+.loading_bar_1 {
+  height: 40px;
+  width: 40px;
+  height: 100%;
+  width: 100%;
+  background: transparent url(../images/loaders/ajax-loader-1.gif) no-repeat 50% 50%;
+}
+
+.loading_bar_inline{
+  display: inline;
+  margin-left: 10px;
+}
+
+.loading_bar_body {
+  height: 100%;
+  width: 100%;
+  top:0;
+  left:0;
+  background: url(../images/loaders/ajax-loader-2.gif) no-repeat 50% 50%;
+}
+
+#btn-body-loader{
+  float: right;
+}
+
+
+.nimble-loader{
+  width:300px;
+  height:250px;
+  border:1px solid #e6e6e6;
+  margin-bottom:10px;
+  overflow:auto;
+}
+
+.nimble-loader-inline{
+  width: 10px;
+  height: 10px;
+}
+
+.container-loader{
+  width:300px;
+  float:left;
+}
+
+.container-loader button{
+  float:left;
+  margin-right: 10px;
+}
+
+#counter-span{
+  display:block;
+  width:100%;
+  color:#34383e;
+  font-weight:bolder;
+  font-size:100px;
+  text-align:center;
+}
+
+.inline-example{
+  height: 40px;
+  margin-top: 100px;
+  float: right;
+  padding-left:20px;
+}
+
+#loader2{
+  margin: 0 31px
+}
+
+#loader2 #wiki-search{
+  width:60px;
+}
+
+#loader2 button, #loader3 button{
+  float: right;
+  margin-right: 0;
+}
+
+#loader5 .perform-loading{
+  display: none;
+}

@@ -1,0 +1,36 @@
+ul.checkboxTree {
+	margin:0 5px 0 10px; 
+	padding:0;	
+}
+
+ul.checkboxTree li {
+	list-style-type: none;
+   position: relative;
+	padding-left:0px;
+    font-size: 7.9pt;
+}
+
+ul.checkboxTree li span {
+    cursor: default;
+    position: absolute;
+    top: 2px;
+    left: -12px;
+}
+
+ul.checkboxTree .level2{
+	padding-left:0px;
+	margin-left:10px;
+}
+
+a.checkboxTree.all {
+    width: 160px;
+    padding: 0px;
+    text-decoration: none;
+    display: block;
+    color: #224059;
+    background-color: #b5c9e2;
+    border-top: 2px #cce3ff solid;
+    border-left: 2px #cce3ff solid;
+    border-bottom: 2px #31557f solid;
+    border-right: 2px #31557f solid;
+}
